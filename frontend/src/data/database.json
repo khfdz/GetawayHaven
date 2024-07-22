@@ -1,0 +1,362 @@
+{
+    "place": [
+      {
+        "id": 1,
+        "imageName": "image-mostpicked-1.jpg",
+        "description": "Nestled in the heart of Jakarta, this serene villa offers breathtaking sunset views and a tranquil atmosphere. Ideal for relaxation and comfort, it features a modest yet inviting backyard perfect for small gatherings.",
+        "city": "Paris",
+        "country": "France",
+        "name": "Beautiful Sunset",
+        "price": 40,
+        "details": {
+          "bedroom": 2,
+          "livingRoom": 1,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 10,
+          "ac": 2,
+          "refrigerator": 1,
+          "television": 1,
+          "backyard": 100,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 2,
+        "imageName": "image-mostpicked-2.jpg",
+        "description": "Escape to Bali's tropical paradise where lush greenery meets modern luxury. This spacious villa includes a generous backyard and multiple living areas, perfect for families or groups seeking a luxurious getaway.",
+        "city": "Bali",
+        "country": "Indonesia",
+        "name": "Tropical Paradise",
+        "price": 55,
+        "details": {
+          "bedroom": 3,
+          "livingRoom": 2,
+          "bathroom": 3,
+          "diningRoom": 1,
+          "wifi": 20,
+          "ac": 3,
+          "refrigerator": 1,
+          "television": 2,
+          "backyard": 150,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 3,
+        "imageName": "image-mostpicked-3.jpg",
+        "description": "Immerse yourself in the rich cultural heritage of Yogyakarta with this charming villa. Offering a cozy atmosphere and a well-sized backyard, it provides a comfortable and authentic Indonesian experience.",
+        "city": "Yogyakarta",
+        "country": "Indonesia",
+        "name": "Cultural Heritage",
+        "price": 35,
+        "details": {
+          "bedroom": 2,
+          "livingRoom": 1,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 15,
+          "ac": 2,
+          "refrigerator": 1,
+          "television": 1,
+          "backyard": 90,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 4,
+        "imageName": "image-mostpicked-4.jpg",
+        "description": "Discover tranquility in Bandung with this villa set amidst lush greenery. The expansive backyard and multiple living spaces offer a perfect setting for relaxation and family gatherings.",
+        "city": "Bandung",
+        "country": "Indonesia",
+        "name": "Green Landscape",
+        "price": 50,
+        "details": {
+          "bedroom": 3,
+          "livingRoom": 2,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 20,
+          "ac": 3,
+          "refrigerator": 1,
+          "television": 2,
+          "backyard": 120,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 5,
+        "imageName": "image-mostpicked-5.jpg",
+        "description": "Experience the vibrant urban lifestyle of Surabaya in this modern villa. Featuring a comfortable backyard and stylish interiors, it provides a chic and convenient retreat in the city.",
+        "city": "Surabaya",
+        "country": "Indonesia",
+        "name": "Urban Life",
+        "price": 45,
+        "details": {
+          "bedroom": 2,
+          "livingRoom": 1,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 10,
+          "ac": 2,
+          "refrigerator": 1,
+          "television": 1,
+          "backyard": 110,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 6,
+        "imageName": "image-category-1.jpg",
+        "description": "Indulge in luxury with this seaside villa in Lombok. Featuring a large backyard and multiple living areas, it offers a premium experience for those seeking a blend of relaxation and opulence.",
+        "city": "Lombok",
+        "country": "Indonesia",
+        "name": "Seaside Escape",
+        "price": 60,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 2,
+          "bathroom": 3,
+          "diningRoom": 2,
+          "wifi": 25,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 2,
+          "backyard": 700,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 7,
+        "imageName": "image-category-2.jpg",
+        "description": "Retreat to the mountains of Medan with this expansive villa featuring a vast backyard and multiple living spaces. It provides a perfect escape for large groups or families looking for a serene getaway.",
+        "city": "Medan",
+        "country": "Indonesia",
+        "name": "Mountain Retreat",
+        "price": 70,
+        "details": {
+          "bedroom": 5,
+          "livingRoom": 2,
+          "bathroom": 4,
+          "diningRoom": 2,
+          "wifi": 20,
+          "ac": 5,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 800,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 8,
+        "imageName": "image-category-3.jpg",
+        "description": "Experience unmatched luxury in this Bali villa featuring a massive backyard and top-notch amenities. Perfect for an extravagant stay, it combines elegance with comfort and style.",
+        "city": "Bali",
+        "country": "Indonesia",
+        "name": "Luxury Villa",
+        "price": 100,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 2,
+          "bathroom": 4,
+          "diningRoom": 2,
+          "wifi": 20,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 950,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 9,
+        "imageName": "image-category-4.jpg",
+        "description": "Modern Living in Jakarta offers a stylish and contemporary villa with a spacious backyard and multiple living rooms. Ideal for both relaxation and entertainment in the heart of the city.",
+        "city": "Dieng",
+        "country": "Indonesia",
+        "name": "Modern Living",
+        "price": 65,
+        "details": {
+          "bedroom": 3,
+          "livingRoom": 2,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 20,
+          "ac": 3,
+          "refrigerator": 1,
+          "television": 2,
+          "backyard": 160,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 10,
+        "imageName": "image-category-5.jpg",
+        "description": "Elegant Oasis in Yogyakarta features an expansive backyard and luxurious amenities. This villa is perfect for those who seek both comfort and a touch of elegance in a serene setting.",
+        "city": "Yogyakarta",
+        "country": "Indonesia",
+        "name": "Elegant Oasis",
+        "price": 75,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 6,
+          "bathroom": 3,
+          "diningRoom": 2,
+          "wifi": 20,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 500,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 11,
+        "imageName": "image-category-6.jpg",
+        "description": "Charming Retreat in Bandung offers a cozy and inviting space with a spacious backyard and multiple living areas. Perfect for family gatherings and enjoying the natural beauty of the surroundings.",
+        "city": "Bandung",
+        "country": "Indonesia",
+        "name": "Charming Retreat",
+        "price": 85,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 4,
+          "bathroom": 2,
+          "diningRoom": 2,
+          "wifi": 20,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 2,
+          "backyard": 620,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 12,
+        "imageName": "image-category-7.jpg",
+        "description": "Luxury in the city with this spacious villa featuring a large backyard and multiple living spaces. Perfect for large groups or families looking for a perfect escape.",
+        "city": "Purwakarta",
+        "country": "Indonesia",
+        "name": "Luxury in the City",
+        "price": 95,
+        "details": {
+          "bedroom": 5,
+          "livingRoom": 3,
+          "bathroom": 4,
+          "diningRoom": 2,
+          "wifi": 20,
+          "ac": 5,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 720,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 13,
+        "imageName": "image-category-8.jpg",
+        "description": "Enjoy the vibrant culture of Barcelona with this modern villa. Featuring spacious living areas and a stylish backyard, it provides a perfect blend of comfort and convenience.",
+        "city": "Barcelona",
+        "country": "Spain",
+        "name": "Modern Villa",
+        "price": 85,
+        "details": {
+          "bedroom": 3,
+          "livingRoom": 4,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 25,
+          "ac": 3,
+          "refrigerator": 2,
+          "television": 2,
+          "backyard": 300,
+          "kitchenset": 0
+        }
+      },
+      {
+        "id": 14,
+        "imageName": "image-category-9.jpg",
+        "description": "Experience luxury living in New York City. This spacious villa offers multiple living areas and a beautiful backyard, ideal for large groups or families.",
+        "city": "New York",
+        "country": "USA",
+        "name": "Luxury Living",
+        "price": 150,
+        "details": {
+          "bedroom": 5,
+          "livingRoom": 2,
+          "bathroom": 4,
+          "diningRoom": 2,
+          "wifi": 50,
+          "ac": 5,
+          "refrigerator": 3,
+          "television": 4,
+          "backyard": 500,
+          "kitchenset": 1
+        }
+      },
+      {
+        "id": 15,
+        "imageName": "image-category-10.jpg",
+        "description": "Discover serenity in the heart of Kyoto. This traditional villa offers a spacious backyard and multiple living rooms, providing a peaceful retreat with a touch of Japanese culture.",
+        "city": "Kyoto",
+        "country": "Japan",
+        "name": "Traditional Retreat",
+        "price": 90,
+        "details": {
+          "bedroom": 3,
+          "livingRoom": 2,
+          "bathroom": 2,
+          "diningRoom": 1,
+          "wifi": 20,
+          "ac": 2,
+          "refrigerator": 1,
+          "television": 1,
+          "backyard": 400,
+          "kitchenset": 1
+        }
+      },
+      {
+        "id": 16,
+        "imageName": "image-category-11.jpg",
+        "description": "Experience the charm of Paris in this chic villa. With a stylish backyard and spacious living areas, it offers a luxurious stay in the city of lights.",
+        "city": "Paris",
+        "country": "France",
+        "name": "Chic Villa",
+        "price": 120,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 2,
+          "bathroom": 3,
+          "diningRoom": 2,
+          "wifi": 30,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 350,
+          "kitchenset": 1
+        }
+      },
+      {
+        "id": 17,
+        "imageName": "image-category-12.jpg",
+        "description": "Experience the vibrant culture of Shanghai in this modern villa. featuring a large backyard and multiple living rooms, it provides a perfect blend of comfort and convenience.",
+        "city": "Shanghai",
+        "country": "China",
+        "name": "Vibrant Culture",
+        "price": 100,
+        "details": {
+          "bedroom": 4,
+          "livingRoom": 2,
+          "bathroom": 3,
+          "diningRoom": 2,
+          "wifi": 30,
+          "ac": 4,
+          "refrigerator": 2,
+          "television": 3,
+          "backyard": 350,
+          "kitchenset": 1
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "reviews": [
+      {
+        "placeId": 1,
+        "familyName": "Smith Family",
+        "stars": 5,
+        "comment": "Beautiful place with an amazing view!",
+        "image": "review-1.png"
+      },
+      {
+        "placeId": 2,
+        "familyName": "Johnson",
+        "stars": 5,
+        "comment": "Lovely villa but a bit crowded during the weekends.",
+        "image": "review-2.png"
+      }
+    ]
+  }
+  

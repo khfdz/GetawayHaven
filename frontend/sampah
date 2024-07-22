@@ -1,0 +1,106 @@
+// ,
+//       {
+//         "placeId": 3,
+//         "familyName": "Williams",
+//         "stars": 5,
+//         "comment": "Wonderful cultural experience. Highly recommended!",
+//         "image": "review-3.jpg"
+//       },
+//       {
+//         "placeId": 4,
+//         "familyName": "Brown",
+//         "stars": 4,
+//         "comment": "Great location but could use some maintenance.",
+//         "image": "review-4.jpg"
+//       },
+//       {
+//         "placeId": 5,
+//         "familyName": "Jones",
+//         "stars": 5,
+//         "comment": "Urban chic with all the modern amenities. Fantastic stay!",
+//         "image": "review-5.jpg"
+//       },
+//       {
+//         "placeId": 6,
+//         "familyName": "Garcia",
+//         "stars": 5,
+//         "comment": "Luxury at its best. Worth every penny!",
+//         "image": "review-6.jpg"
+//       },
+//       {
+//         "placeId": 7,
+//         "familyName": "Miller",
+//         "stars": 4,
+//         "comment": "Beautiful retreat but a bit far from the city center.",
+//         "image": "review-7.jpg"
+//       },
+//       {
+//         "placeId": 8,
+//         "familyName": "Davis",
+//         "stars": 5,
+//         "comment": "Absolutely stunning! A must-visit.",
+//         "image": "review-8.jpg"
+//       },
+//       {
+//         "placeId": 9,
+//         "familyName": "Martinez",
+//         "stars": 4,
+//         "comment": "Modern and convenient. Had a great time!",
+//         "image": "review-9.jpg"
+//       },
+//       {
+//         "placeId": 10,
+//         "familyName": "Hernandez",
+//         "stars": 5,
+//         "comment": "Elegance and comfort in one place. Perfect for a relaxing getaway.",
+//         "image": "review-10.jpg"
+//       },
+//       {
+//         "placeId": 11,
+//         "familyName": "Lopez",
+//         "stars": 4,
+//         "comment": "Cozy and inviting. Would definitely visit again.",
+//         "image": "review-11.jpg"
+//       },
+//       {
+//         "placeId": 12,
+//         "familyName": "Gonzalez",
+//         "stars": 5,
+//         "comment": "A luxurious escape in the city. Highly recommend!",
+//         "image": "review-12.jpg"
+//       },
+//       {
+//         "placeId": 13,
+//         "familyName": "Wilson",
+//         "stars": 4,
+//         "comment": "Chic and comfortable. Great experience overall.",
+//         "image": "review-13.jpg"
+//       },
+//       {
+//         "placeId": 14,
+//         "familyName": "Anderson",
+//         "stars": 5,
+//         "comment": "Luxurious living in NYC. Worth the price!",
+//         "image": "review-14.jpg"
+//       },
+//       {
+//         "placeId": 15,
+//         "familyName": "Thomas",
+//         "stars": 5,
+//         "comment": "Peaceful and serene. A perfect retreat.",
+//         "image": "review-15.jpg"
+//       },
+//       {
+//         "placeId": 16,
+//         "familyName": "Taylor",
+//         "stars": 5,
+//         "comment": "Chic and luxurious. A wonderful stay in Paris.",
+//         "image": "review-16.jpg"
+//       },
+//       {
+//         "placeId": 17,
+//         "familyName": "Lee",
+//         "stars": 4,
+//         "comment": "Vibrant and modern. A great cultural experience.",
+//         "image": "review-17.jpg"
+//       }
