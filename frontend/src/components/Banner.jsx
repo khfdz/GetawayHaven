@@ -6,12 +6,12 @@ import TreasureIcon from '../../public/icons/ic_treasure.png';
 
 const Banner = () => {
   return (
-    <div className="flex items-center justify-between p-8 relative ml-12 mr-12">
+    <div className="flex items-center justify-between p-8 relative ml-12 mr-12 animate-slide-in-left">
       {/* Photo Section */}
       <div className="relative flex-1">
         {/* Shape Bulat Stroke (Shadow Effect) */}
         <div
-          className="absolute inset-0 rounded-custom-rounded border-2  shadow-stroke"
+          className="absolute inset-0 rounded-custom-rounded border-2 shadow-stroke"
           style={{
             top: '40px',
             left: '50px',
@@ -24,16 +24,16 @@ const Banner = () => {
         <img
           src={BannerImage}
           alt="Banner"
-          className="rounded-custom-rounded relative"
+          className="rounded-custom-rounded relative transition-transform duration-300 transform hover:scale-110"
         />
       </div>
 
       {/* Text Section */}
-      <div className="flex-1 pl-8 ml-20">
+      <div className="flex-1 pl-8 ml-20 ">
         <h1 className="text-xl font-bold text-pink1 mb-4">
           Escape the Ordinary,<br /> Embrace Your Adventure
         </h1>
-        <p className="text-xs text-gray1 mb-6 text-justify">
+        <p className="text-sm text-gray1 mb-6 text-justify">
           Discover stunning destinations and unique experiences with GetawayHaven. From sun-soaked beaches to serene retreats, we provide everything for your perfect getaway and unforgettable memories.
         </p>
 
@@ -43,7 +43,7 @@ const Banner = () => {
 
         {/* Icons Section */}
         <div className="flex mt-6 space-x-12">
-          <div className="flex flex-col ">
+          <div className="flex flex-col">
             <img src={TravelerIcon} alt="Travelers" className="w-6 h-6 mb-2" />
             <div className="flex items-center">
               <p className="text-xs font-bold text-pink1 mr-1">80,409</p>

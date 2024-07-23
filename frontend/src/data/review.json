@@ -2,7 +2,7 @@
     "reviews": [
       {
         "placeId": 1,
-        "familyName": "Smith Family",
+        "familyName": "Smith",
         "stars": 5,
         "comment": "Beautiful place with an amazing view!",
         "image": "review-1.png"

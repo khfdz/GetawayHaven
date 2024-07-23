@@ -1,219 +1,298 @@
 {
-    "place": [
+  "place": [
       {
-        "id": 1,
-        "imageName": "image-mostpicked-1.jpg",
-        "description": "Nestled in the heart of Jakarta, this serene villa offers breathtaking sunset views and a tranquil atmosphere. Ideal for relaxation and comfort, it features a modest yet inviting backyard perfect for small gatherings.",
-        "city": "Paris",
-        "country": "France",
-        "name": "Beautiful Sunset",
-        "price": 40,
-        "details": {
-          "bedroom": 2,
-          "livingRoom": 1,
-          "bathroom": 2,
-          "diningRoom": 1,
-          "wifi": 10,
-          "ac": 2,
-          "refrigerator": 1,
-          "television": 1,
-          "backyard": 100,
-          "kitchenset": 0
-        }
+          "id": 1,
+          "image": {
+              "banner": "image-mostpicked-1.jpg",
+              "feature": [
+                  "image-mostpicked-1-feature-1.jpg",
+                  "image-mostpicked-1-feature-2.jpg",
+                  "image-mostpicked-1-feature-3.jpg",
+                  "image-mostpicked-1-feature-4.jpg"
+              ]
+          },
+"description": "Nestled in the heart of Jakarta, this serene villa offers breathtaking sunset views and a tranquil atmosphere. Ideal for relaxation and comfort, it features a modest yet inviting backyard perfect for small gatherings.With its carefully curated interiors, the villa exudes an air of elegance and warmth.\n\nThe open-plan living area is designed to be both spacious and cozy, featuring plush furnishings and tasteful decor that invite you to unwind.Large windows flood the space with natural light, enhancing the sense of openness and connection to the surrounding greenery.The villa’s kitchen is well-equipped for those who enjoy cooking, offering modern appliances and ample counter space.\n\nWhether you're preparing a casual meal or hosting a dinner party, you'll find everything you need to make your culinary experience enjoyable.Adjacent to the kitchen, the dining area provides a charming setting for meals with family and friends.The villa's bedrooms are designed with comfort in mind, featuring soft linens and soothing color schemes that promote restful sleep.\n\nEach bedroom offers its own unique charm, with some rooms opening up to private balconies where you can enjoy your morning coffee while taking in the serene views.The well-appointed bathrooms provide a spa-like experience, complete with luxurious amenities to enhance your stay.",
+
+          "city": "Paris",
+          "country": "France",
+          "name": "Beautiful Sunset",
+          "price": 40,
+          "details": {
+              "bedroom": 2,
+              "livingRoom": 1,
+              "bathroom": 2,
+              "diningRoom": 1,
+              "wifi": 10,
+              "ac": 2,
+              "refrigerator": 1,
+              "television": 1,
+              "backyard": 100,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 2,
-        "imageName": "image-mostpicked-2.jpg",
-        "description": "Escape to Bali's tropical paradise where lush greenery meets modern luxury. This spacious villa includes a generous backyard and multiple living areas, perfect for families or groups seeking a luxurious getaway.",
-        "city": "Bali",
-        "country": "Indonesia",
-        "name": "Tropical Paradise",
-        "price": 55,
-        "details": {
-          "bedroom": 3,
-          "livingRoom": 2,
-          "bathroom": 3,
-          "diningRoom": 1,
-          "wifi": 20,
-          "ac": 3,
-          "refrigerator": 1,
-          "television": 2,
-          "backyard": 150,
-          "kitchenset": 0
-        }
+          "id": 2,
+          "image": {
+              "banner": "image-mostpicked-2.jpg",
+              "feature": [
+                  "image-mostpicked-2-feature-1.jpg",
+                  "image-mostpicked-2-feature-2.jpg",
+                  "image-mostpicked-2-feature-3.jpg"
+              ]
+          },
+          "description": "Perched on the sandy shores of Bali, this charming beachfront cottage offers a perfect blend of relaxation and adventure. With panoramic ocean views and a breezy atmosphere, it's an ideal retreat for those seeking a peaceful getaway. The cottage features a spacious, open-plan living area with large windows that allow natural light to flood in and provide uninterrupted views of the crystal-clear waters. The interior design is both rustic and modern, with comfortable seating, vibrant artwork, and a well-stocked bookshelf for leisurely reading.\n\nThe kitchen is fully equipped with high-quality appliances, including a gas stove, refrigerator, and a cozy breakfast nook where you can enjoy your morning coffee. Adjacent to the kitchen, the dining area comfortably seats six and opens out to a private terrace with outdoor seating – perfect for al fresco dining while listening to the soothing sounds of the waves.\n\nThe cottage's bedrooms are a sanctuary of relaxation, featuring plush bedding, soft linens, and calming color schemes. Each room has access to the terrace or balcony, allowing you to wake up to the sound of the ocean and enjoy the stunning sunrise. The bathrooms are elegantly designed with luxurious fixtures, offering both a shower and a soaking tub for your comfort.\n\nOutside, you’ll find a lush garden with tropical plants and a private path leading directly to the beach. Whether you want to take a leisurely stroll along the shore, sunbathe, or engage in water activities, this beachfront cottage provides a perfect base for both relaxation and exploration. With its unique blend of comfort, style, and natural beauty, it's a true seaside haven.",
+          "city": "Bali",
+          "country": "Indonesia",
+          "name": "Cozy Beachfront Cottage",
+          "price": 55,
+          "details": {
+              "bedroom": 3,
+              "livingRoom": 2,
+              "bathroom": 3,
+              "diningRoom": 1,
+              "wifi": 20,
+              "ac": 3,
+              "refrigerator": 1,
+              "television": 2,
+              "backyard": 150,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 3,
-        "imageName": "image-mostpicked-3.jpg",
-        "description": "Immerse yourself in the rich cultural heritage of Yogyakarta with this charming villa. Offering a cozy atmosphere and a well-sized backyard, it provides a comfortable and authentic Indonesian experience.",
-        "city": "Yogyakarta",
-        "country": "Indonesia",
-        "name": "Cultural Heritage",
-        "price": 35,
-        "details": {
-          "bedroom": 2,
-          "livingRoom": 1,
-          "bathroom": 2,
-          "diningRoom": 1,
-          "wifi": 15,
-          "ac": 2,
-          "refrigerator": 1,
-          "television": 1,
-          "backyard": 90,
-          "kitchenset": 0
-        }
+          "id": 3,
+          "image": {
+              "banner": "image-mostpicked-3.jpg",
+              "feature": [
+                  "image-mostpicked-3-feature-1.jpg",
+                  "image-mostpicked-3-feature-2.jpg",
+                  "image-mostpicked-3-feature-3.jpg"
+              ]
+          },
+          "description": "Discover the essence of Yogyakarta’s rich cultural heritage with this delightful villa. Nestled in a serene location, this villa offers a cozy and inviting atmosphere that perfectly captures the charm and authenticity of Indonesian living. The spacious backyard provides a peaceful retreat, ideal for relaxing or hosting small gatherings under the tropical sky. The villa’s interior is thoughtfully designed to combine traditional elements with modern comforts. You’ll find warm, earthy tones and handcrafted furniture that reflect the local craftsmanship, creating an ambiance of homely elegance.\n\nThe living area is designed for both comfort and functionality, featuring comfortable seating arrangements, a large television for entertainment, and an open layout that enhances the flow of natural light throughout the space. The well-equipped kitchen, complete with a refrigerator and kitchen set, is perfect for preparing local delicacies or your favorite meals. The adjacent dining area offers a charming space for enjoying meals with family or friends.\n\nThe villa boasts two well-appointed bedrooms, each furnished with soft linens and tasteful decor to ensure a restful sleep. The bathrooms are equipped with modern amenities and designed to provide a soothing retreat after a day of exploring the city. With air conditioning units in key areas, the villa remains cool and comfortable throughout your stay.\n\nWhether you’re exploring the vibrant cultural scene of Yogyakarta or simply enjoying the tranquility of the villa, this property offers a perfect blend of traditional charm and modern convenience.",
+          "city": "Yogyakarta",
+          "country": "Indonesia",
+          "name": "Cultural Heritage",
+          "price": 35,
+          "details": {
+              "bedroom": 2,
+              "livingRoom": 1,
+              "bathroom": 2,
+              "diningRoom": 1,
+              "wifi": 15,
+              "ac": 2,
+              "refrigerator": 1,
+              "television": 1,
+              "backyard": 90,
+              "kitchenset": 1
+          }
       },
       {
-        "id": 4,
-        "imageName": "image-mostpicked-4.jpg",
-        "description": "Discover tranquility in Bandung with this villa set amidst lush greenery. The expansive backyard and multiple living spaces offer a perfect setting for relaxation and family gatherings.",
-        "city": "Bandung",
-        "country": "Indonesia",
-        "name": "Green Landscape",
-        "price": 50,
-        "details": {
-          "bedroom": 3,
-          "livingRoom": 2,
-          "bathroom": 2,
-          "diningRoom": 1,
-          "wifi": 20,
-          "ac": 3,
-          "refrigerator": 1,
-          "television": 2,
-          "backyard": 120,
-          "kitchenset": 0
-        }
+          "id": 4,
+          "image": {
+              "banner": "image-mostpicked-4.jpg",
+              "feature": [
+                  "image-mostpicked-4-feature-1.jpg",
+                  "image-mostpicked-4-feature-2.jpg",
+                  "image-mostpicked-4-feature-3.jpg"
+              ]
+          },
+          "description": "Experience ultimate tranquility in Bandung with this enchanting villa, nestled amidst the lush greenery of the region. This spacious retreat offers an expansive backyard, perfect for unwinding or hosting family gatherings in a serene environment. The villa features a thoughtfully designed layout that combines comfort and elegance, ensuring a pleasant stay for all guests.\n\nStep into the inviting living spaces, which are designed to cater to both relaxation and entertainment. The large windows allow natural light to flood the interior, creating a bright and airy atmosphere that connects you with the surrounding beauty of the outdoors. The villa’s décor blends modern amenities with a touch of traditional charm, making it a delightful home away from home.\n\nThe well-equipped kitchen is ready for your culinary adventures, complete with modern appliances and ample counter space. Adjacent to the kitchen, the dining area provides a cozy spot for meals, where you can enjoy quality time with family and friends. Each of the villa’s bedrooms is designed for comfort, featuring soft linens and serene color schemes to promote restful sleep.\n\nThe bathrooms offer a luxurious experience, with contemporary fixtures and a soothing ambiance. Whether you’re lounging in the expansive backyard, exploring the nearby attractions, or simply enjoying the tranquility of the villa, this property provides a perfect blend of relaxation and comfort.",
+          "city": "Bandung",
+          "country": "Indonesia",
+          "name": "Green Landscape",
+          "price": 50,
+          "details": {
+              "bedroom": 3,
+              "livingRoom": 2,
+              "bathroom": 2,
+              "diningRoom": 1,
+              "wifi": 20,
+              "ac": 3,
+              "refrigerator": 1,
+              "television": 2,
+              "backyard": 120,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 5,
-        "imageName": "image-mostpicked-5.jpg",
-        "description": "Experience the vibrant urban lifestyle of Surabaya in this modern villa. Featuring a comfortable backyard and stylish interiors, it provides a chic and convenient retreat in the city.",
-        "city": "Surabaya",
-        "country": "Indonesia",
-        "name": "Urban Life",
-        "price": 45,
-        "details": {
-          "bedroom": 2,
-          "livingRoom": 1,
-          "bathroom": 2,
-          "diningRoom": 1,
-          "wifi": 10,
-          "ac": 2,
-          "refrigerator": 1,
-          "television": 1,
-          "backyard": 110,
-          "kitchenset": 0
-        }
+          "id": 5,
+          "image": {
+              "banner": "image-mostpicked-5.jpg",
+              "feature": [
+                  "image-mostpicked-5-feature-1.jpg",
+                  "image-mostpicked-5-feature-2.jpg",
+                  "image-mostpicked-5-feature-3.jpg"
+              ]
+          },
+          "description": "Immerse yourself in the vibrant urban lifestyle of Surabaya with this contemporary villa, designed to offer a chic and convenient retreat in the heart of the city. The villa features a well-appointed backyard that provides a private outdoor oasis, perfect for relaxation or casual gatherings amidst the bustling cityscape.\n\nStep inside to discover a stylish interior that combines modern elegance with functional comfort. The open-plan living area is thoughtfully designed to create a seamless flow between spaces, enhancing the sense of openness and connectivity. High-quality furnishings and tasteful decor reflect a sophisticated aesthetic, ensuring that every moment spent in the villa is enjoyable.\n\nThe kitchen is equipped with state-of-the-art appliances and ample counter space, catering to all your culinary needs. Whether you're preparing a quick meal or entertaining guests, you'll find everything you need for a delightful cooking experience. Adjacent to the kitchen, the dining area offers a cozy setting for meals, where you can enjoy city views and the ambiance of the modern design.\n\nThe bedrooms are designed with relaxation in mind, featuring plush bedding and soothing color schemes to create a restful retreat. Each room is a sanctuary of comfort, allowing you to unwind after a day of exploring the city's attractions. The bathrooms are equally luxurious, equipped with contemporary fixtures and a spa-like atmosphere to enhance your stay.\n\nWhether you're looking to experience the dynamic energy of Surabaya or simply enjoy the comforts of a stylish city retreat, this villa offers the perfect blend of modern amenities and urban charm.",
+          "city": "Surabaya",
+          "country": "Indonesia",
+          "name": "Urban Life",
+          "price": 45,
+          "details": {
+              "bedroom": 2,
+              "livingRoom": 1,
+              "bathroom": 2,
+              "diningRoom": 1,
+              "wifi": 10,
+              "ac": 2,
+              "refrigerator": 1,
+              "television": 1,
+              "backyard": 110,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 6,
-        "imageName": "image-category-1.jpg",
-        "description": "Indulge in luxury with this seaside villa in Lombok. Featuring a large backyard and multiple living areas, it offers a premium experience for those seeking a blend of relaxation and opulence.",
-        "city": "Lombok",
-        "country": "Indonesia",
-        "name": "Seaside Escape",
-        "price": 60,
-        "details": {
-          "bedroom": 4,
-          "livingRoom": 2,
-          "bathroom": 3,
-          "diningRoom": 2,
-          "wifi": 25,
-          "ac": 4,
-          "refrigerator": 2,
-          "television": 2,
-          "backyard": 700,
-          "kitchenset": 0
-        }
+          "id": 6,
+          "image": {
+              "banner": "image-category-1.jpg",
+              "feature": [
+                  "image-category-1-feature-1.jpg",
+                  "image-category-1-feature-2.jpg",
+                  "image-category-1-feature-3.jpg"
+              ]
+          },
+      "description": "Indulge in luxury with this exquisite seaside villa in Lombok, where opulence meets tranquility.\n\nThis spacious villa offers a generous backyard that seamlessly merges with the stunning coastal scenery, providing an ideal setting for both relaxation and entertaining. The expansive outdoor space is perfect for hosting elegant gatherings, enjoying al fresco dining, or simply unwinding in the serene environment.\n\nInside, the villa features multiple living areas designed with a refined aesthetic and modern comfort in mind. The open-plan layout enhances the sense of space and allows for effortless flow between the stylishly appointed living room, dining area, and gourmet kitchen. Large windows throughout the villa offer unobstructed views of the ocean and let in ample natural light, creating a bright and airy atmosphere.\n\nThe villa’s luxurious bedrooms are designed for ultimate relaxation, with plush bedding, sophisticated decor, and en-suite bathrooms that feature high-end fixtures and finishes. Whether you’re lounging by the private pool, taking in the breathtaking views from the terrace, or exploring the nearby beaches and attractions, this villa promises an unforgettable escape where every detail is tailored for your comfort and enjoyment.",
+          "city": "Lombok",
+          "country": "Indonesia",
+          "name": "Seaside Escape",
+          "price": 60,
+          "details": {
+              "bedroom": 4,
+              "livingRoom": 2,
+              "bathroom": 3,
+              "diningRoom": 2,
+              "wifi": 25,
+              "ac": 4,
+              "refrigerator": 2,
+              "television": 2,
+              "backyard": 950,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 7,
-        "imageName": "image-category-2.jpg",
-        "description": "Retreat to the mountains of Medan with this expansive villa featuring a vast backyard and multiple living spaces. It provides a perfect escape for large groups or families looking for a serene getaway.",
-        "city": "Medan",
-        "country": "Indonesia",
-        "name": "Mountain Retreat",
-        "price": 70,
-        "details": {
-          "bedroom": 5,
-          "livingRoom": 2,
-          "bathroom": 4,
-          "diningRoom": 2,
-          "wifi": 20,
-          "ac": 5,
-          "refrigerator": 2,
-          "television": 3,
-          "backyard": 800,
-          "kitchenset": 0
-        }
+          "id": 7,
+          "image": {
+              "banner": "image-category-2.jpg",
+              "feature": [
+                  "image-category-2-feature-1.jpg",
+                  "image-category-2-feature-2.jpg",
+                  "image-category-2-feature-3.jpg"
+              ]
+          },
+          "description": "Retreat to the serene mountains of Medan with this expansive villa, offering a truly remarkable escape for those seeking tranquility and comfort. Nestled amidst lush landscapes, the villa features a vast and beautifully maintained backyard that provides ample space for outdoor activities, family gatherings, or simply enjoying the breathtaking natural surroundings.\n\nThe villa is designed to accommodate large groups or families, with multiple spacious living areas that blend seamlessly to create a welcoming and relaxing environment. The interior is thoughtfully arranged to ensure that every guest can enjoy both privacy and togetherness, with well-appointed rooms that cater to various needs.\n\nThe open-plan living area boasts cozy furnishings and tasteful decor, creating a warm and inviting atmosphere. Large windows flood the space with natural light, enhancing the connection to the surrounding greenery and offering stunning views of the mountainous landscape. The fully equipped kitchen and dining area are perfect for preparing and enjoying meals together, featuring modern appliances and generous counter space.\n\nEach bedroom is designed with comfort in mind, providing restful retreats with soft linens and soothing color schemes. Some rooms even open up to private balconies, where you can savor your morning coffee while taking in the fresh mountain air and picturesque views. The bathrooms are equipped with luxurious amenities, adding a touch of spa-like relaxation to your stay.\n\nWhether you're looking to host a family reunion, a group retreat, or simply enjoy a peaceful getaway, this villa offers a perfect blend of spaciousness, comfort, and natural beauty.",
+          "city": "Medan",
+          "country": "Indonesia",
+          "name": "Mountain Retreat",
+          "price": 70,
+          "details": {
+              "bedroom": 5,
+              "livingRoom": 1,
+              "bathroom": 4,
+              "diningRoom": 2,
+              "wifi": 20,
+              "ac": 5,
+              "refrigerator": 2,
+              "television": 3,
+              "backyard": 800,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 8,
-        "imageName": "image-category-3.jpg",
-        "description": "Experience unmatched luxury in this Bali villa featuring a massive backyard and top-notch amenities. Perfect for an extravagant stay, it combines elegance with comfort and style.",
-        "city": "Bali",
-        "country": "Indonesia",
-        "name": "Luxury Villa",
-        "price": 100,
-        "details": {
-          "bedroom": 4,
-          "livingRoom": 2,
-          "bathroom": 4,
-          "diningRoom": 2,
-          "wifi": 20,
-          "ac": 4,
-          "refrigerator": 2,
-          "television": 3,
-          "backyard": 950,
-          "kitchenset": 0
-        }
+          "id": 8,
+          "image": {
+              "banner": "image-category-3.jpg",
+              "feature": [
+                  "image-category-3-feature-1.jpg",
+                  "image-category-3-feature-2.jpg",
+                  "image-category-3-feature-3.jpg"
+              ]
+          },
+          "description": "Experience unmatched luxury in this Bali villa, where grandeur and comfort seamlessly intertwine to offer an unforgettable stay.\n\nThis villa boasts an expansive backyard that is perfect for hosting lavish outdoor gatherings or simply enjoying the serene environment. Surrounded by lush tropical gardens, the outdoor space includes a pristine pool, spacious lounging areas, and an elegant dining pavilion, making it an ideal setting for both relaxation and entertainment.\n\nThe interior of the villa is equally impressive, with meticulously designed living spaces that exude sophistication and style. The open-plan living area features high ceilings and large windows that invite natural light, creating a bright and airy ambiance. The living room is furnished with plush seating and tasteful decor, providing a perfect spot for unwinding after a day of exploration.\n\nThe gourmet kitchen is equipped with top-of-the-line appliances and ample counter space, catering to all your culinary needs. Adjacent to the kitchen is a stylish dining area that comfortably seats guests, making it ideal for both casual meals and formal dinners.\n\nEach bedroom in the villa is a private sanctuary, offering luxurious bedding, stylish furnishings, and en-suite bathrooms with high-end fixtures. The bedrooms open up to private terraces or garden areas, allowing guests to enjoy the natural beauty of Bali in complete privacy.\n\nWhether you’re lounging by the pool, exploring the nearby cultural landmarks, or simply enjoying the tranquility of your surroundings, this villa provides a perfect blend of elegance, comfort, and style for a truly extraordinary stay.",
+          "city": "Bali",
+          "country": "Indonesia",
+          "name": "Luxury Villa",
+          "price": 100,
+          "details": {
+              "bedroom": 4,
+              "livingRoom": 1,
+              "bathroom": 4,
+              "diningRoom": 2,
+              "wifi": 20,
+              "ac": 4,
+              "refrigerator": 2,
+              "television": 3,
+              "backyard": 990,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 9,
-        "imageName": "image-category-4.jpg",
-        "description": "Modern Living in Jakarta offers a stylish and contemporary villa with a spacious backyard and multiple living rooms. Ideal for both relaxation and entertainment in the heart of the city.",
-        "city": "Dieng",
-        "country": "Indonesia",
-        "name": "Modern Living",
-        "price": 65,
-        "details": {
-          "bedroom": 3,
-          "livingRoom": 2,
-          "bathroom": 2,
-          "diningRoom": 1,
-          "wifi": 20,
-          "ac": 3,
-          "refrigerator": 1,
-          "television": 2,
-          "backyard": 160,
-          "kitchenset": 0
-        }
+          "id": 9,
+          "image": {
+              "banner": "image-category-4.jpg",
+              "feature": [
+                  "image-category-4-feature-1.jpg",
+                  "image-category-4-feature-2.jpg",
+                  "image-category-4-feature-3.jpg"
+              ]
+          },
+          "description": "Modern Living in Jakarta offers a stylish and contemporary villa that redefines urban sophistication. Located in the heart of the city, this villa is designed to provide both comfort and convenience, making it the ideal retreat for relaxation and entertainment.\n\nThe villa features a spacious backyard, perfect for enjoying outdoor activities or hosting gatherings. The well-maintained garden and patio area provide a serene environment amidst the bustling cityscape, creating a perfect balance of tranquility and modern living.\n\nInside, the villa boasts multiple living rooms, each thoughtfully designed to offer ample space and comfort. The open-plan layout enhances the sense of freedom and flow between the living, dining, and kitchen areas. High ceilings and large windows allow natural light to fill the space, highlighting the sleek and stylish decor.\n\nThe kitchen is equipped with modern appliances and ample counter space, catering to all your culinary needs. Whether you’re preparing a casual meal or hosting a dinner party, the kitchen and dining area offer a practical and elegant space.\n\nThe bedrooms are designed with relaxation in mind, featuring comfortable furnishings and soothing color schemes. Each room provides a cozy retreat from the city's hustle and bustle, ensuring a restful night's sleep.\n\nModern Living in Jakarta combines luxury and practicality, offering a contemporary escape that meets all your needs for a stylish and comfortable urban lifestyle.",
+          "city": "Dieng",
+          "country": "Indonesia",
+          "name": "Modern Living",
+          "price": 65,
+          "details": {
+              "bedroom": 3,
+              "livingRoom": 2,
+              "bathroom": 2,
+              "diningRoom": 1,
+              "wifi": 20,
+              "ac": 3,
+              "refrigerator": 1,
+              "television": 2,
+              "backyard": 999,
+              "kitchenset": 0
+          }
       },
       {
-        "id": 10,
-        "imageName": "image-category-5.jpg",
-        "description": "Elegant Oasis in Yogyakarta features an expansive backyard and luxurious amenities. This villa is perfect for those who seek both comfort and a touch of elegance in a serene setting.",
-        "city": "Yogyakarta",
-        "country": "Indonesia",
-        "name": "Elegant Oasis",
-        "price": 75,
-        "details": {
-          "bedroom": 4,
-          "livingRoom": 6,
-          "bathroom": 3,
-          "diningRoom": 2,
-          "wifi": 20,
-          "ac": 4,
-          "refrigerator": 2,
-          "television": 3,
-          "backyard": 500,
-          "kitchenset": 0
-        }
+          "id": 10,
+          "image": {
+              "banner": "image-category-5.jpg",
+              "feature": [
+                  "image-category-5-feature-1.jpg",
+                  "image-category-5-feature-2.jpg",
+                  "image-category-5-feature-3.jpg"
+              ]
+          },
+          "description": "Indulge in the ultimate luxury with this spacious Bali villa, where every detail is crafted to offer an unparalleled experience of opulence and relaxation. Set amidst lush tropical surroundings, the villa features a vast backyard that provides a private sanctuary for unwinding and enjoying the serene beauty of the island.\n\nThe expansive outdoor area is perfect for lounging in the sun, hosting elegant gatherings, or simply taking in the tranquil atmosphere. Complemented by beautifully landscaped gardens and a sparkling private pool, it offers a true escape from the everyday hustle.\n\nInside, the villa’s exquisite interiors reflect a perfect blend of traditional Balinese aesthetics and modern luxury. The open-plan living spaces are thoughtfully designed to maximize comfort and elegance, featuring high-end furnishings, tasteful decor, and large windows that flood the space with natural light.\n\nThe well-appointed kitchen and dining area cater to your culinary needs, whether you're preparing a casual meal or hosting a special dinner. Each bedroom is a sanctuary of comfort, equipped with plush linens and designed to provide restful sleep.\n\nThe villa also includes luxurious amenities and services, ensuring that every aspect of your stay is met with the highest standards of excellence. From the moment you arrive, you'll experience the pinnacle of luxury, making this Bali villa a truly exceptional choice for your next getaway.",
+          "city": "Solo",
+          "country": "Indonesia",
+          "name": "Luxury Comfort",
+          "price": 150,
+          "details": {
+              "bedroom": 6,
+              "livingRoom": 5,
+              "bathroom": 4,
+              "diningRoom": 2,
+              "wifi": 30,
+              "ac": 6,
+              "refrigerator": 3,
+              "television": 4,
+              "backyard": 100,
+              "kitchenset": 0
+          }
       },
       {
         "id": 11,
-        "imageName": "image-category-6.jpg",
-        "description": "Charming Retreat in Bandung offers a cozy and inviting space with a spacious backyard and multiple living areas. Perfect for family gatherings and enjoying the natural beauty of the surroundings.",
+        "image": {
+          "banner": "image-category-6.jpg",
+          "feature": [
+            "image-category-6-feature-1.jpg",
+            "image-category-6-feature-2.jpg",
+            "image-category-6-feature-3.jpg"
+          ]
+        },
+        "description": "Charming Retreat in Bandung offers a cozy and inviting space with a spacious backyard and multiple living areas. This delightful villa is designed to provide a warm and welcoming atmosphere, making it an ideal setting for family gatherings or a peaceful escape from the hustle and bustle of daily life.\n\nThe villa features a generously sized backyard that is perfect for outdoor activities, whether it's a weekend barbecue, children playing, or simply relaxing in the fresh air. The lush greenery and well-maintained garden create a serene environment that enhances the overall experience of your stay.\n\nInside, you'll find multiple living areas that are thoughtfully arranged to accommodate both intimate family moments and larger social gatherings. The inviting decor and comfortable furnishings ensure a homely feel, while the open-plan layout promotes a sense of spaciousness and ease. Each living area is designed with relaxation in mind, offering comfortable seating and tasteful decor.\n\nWhether you're enjoying a quiet evening with loved ones or hosting a lively family event, this retreat provides the perfect backdrop for making lasting memories. Embrace the natural beauty of the surroundings and experience the charm and comfort of this exceptional villa.",
         "city": "Bandung",
         "country": "Indonesia",
         "name": "Charming Retreat",
@@ -227,14 +306,21 @@
           "ac": 4,
           "refrigerator": 2,
           "television": 2,
-          "backyard": 620,
-          "kitchenset": 0
+          "backyard": 120,
+          "kitchenset": 1
         }
       },
       {
         "id": 12,
-        "imageName": "image-category-7.jpg",
-        "description": "Luxury in the city with this spacious villa featuring a large backyard and multiple living spaces. Perfect for large groups or families looking for a perfect escape.",
+        "image": {
+          "banner": "image-category-7.jpg",
+          "feature": [
+            "image-category-7-feature-1.jpg",
+            "image-category-7-feature-2.jpg",
+            "image-category-7-feature-3.jpg"
+          ]
+        },
+"description": "Luxury in the city with this spacious villa featuring a large backyard and multiple living spaces. The villa is designed to offer a perfect blend of elegance and comfort, making it an ideal choice for large groups or families seeking a luxurious escape from the daily grind.\n\nThe expansive backyard is a highlight, providing ample space for outdoor activities, family gatherings, or simply relaxing in a serene environment. With well-maintained gardens and outdoor seating areas, it serves as a perfect backdrop for entertaining guests or enjoying a quiet afternoon.\n\nInside, the villa boasts multiple living spaces, each thoughtfully designed to cater to various needs. Whether you are looking to host a grand celebration or unwind in a cozy setting, the spacious interiors offer flexibility and comfort. The stylish furnishings and modern amenities ensure a high level of comfort, while the elegant decor adds a touch of sophistication.\n\nEvery detail of this villa is curated to enhance your stay, from the well-appointed kitchen for preparing gourmet meals to the comfortable bedrooms that provide a restful retreat. Experience the ultimate in luxury and convenience with this villa, where every aspect is designed to create a memorable and enjoyable experience.",
         "city": "Purwakarta",
         "country": "Indonesia",
         "name": "Luxury in the City",
@@ -248,14 +334,21 @@
           "ac": 5,
           "refrigerator": 2,
           "television": 3,
-          "backyard": 720,
-          "kitchenset": 0
+          "backyard": 20,
+          "kitchenset": 1
         }
       },
       {
         "id": 13,
-        "imageName": "image-category-8.jpg",
-        "description": "Enjoy the vibrant culture of Barcelona with this modern villa. Featuring spacious living areas and a stylish backyard, it provides a perfect blend of comfort and convenience.",
+        "image": {
+          "banner": "image-category-8.jpg",
+          "feature": [
+            "image-category-8-feature-1.jpg",
+            "image-category-8-feature-2.jpg",
+            "image-category-8-feature-3.jpg"
+          ]
+        },
+        "description": "Enjoy the vibrant culture of Barcelona with this modern villa, designed to offer a seamless blend of luxury and comfort. This spacious villa boasts expansive living areas that provide ample room for relaxation and entertainment, making it an ideal choice for families or groups looking to experience the city's dynamic atmosphere.\n\nThe stylish backyard is a highlight of the property, featuring contemporary landscaping and comfortable outdoor furnishings. It's the perfect spot for unwinding after a day of exploring the city's renowned attractions or hosting an evening gathering with friends and family.\n\nInside, the villa's modern design is complemented by high-end finishes and thoughtful details that enhance the overall living experience. The open-plan layout ensures that the living, dining, and kitchen areas flow seamlessly into one another, creating a spacious and inviting environment.\n\nWhether you're lounging in the expansive living room, preparing a meal in the well-equipped kitchen, or enjoying the fresh air in the stylish backyard, this villa offers a perfect balance of comfort and convenience, allowing you to fully immerse yourself in the vibrant culture of Barcelona.",
         "city": "Barcelona",
         "country": "Spain",
         "name": "Modern Villa",
@@ -275,15 +368,23 @@
       },
       {
         "id": 14,
-        "imageName": "image-category-9.jpg",
-        "description": "Experience luxury living in New York City. This spacious villa offers multiple living areas and a beautiful backyard, ideal for large groups or families.",
+        "image": {
+          "banner": "image-category-9.jpg",
+          "feature": [
+            "image-category-9-feature-1.jpg",
+            "image-category-9-feature-2.jpg",
+            "image-category-9-feature-3.jpg"
+          ]
+        },
+"description": "Experience the pinnacle of luxury living in the vibrant heart of New York City. This expansive villa boasts multiple living areas, each thoughtfully designed to provide both comfort and elegance. The generous layout ensures ample space for large groups or families, making it perfect for gatherings or extended stays.\n\nThe villa features a beautifully landscaped backyard, offering a serene escape from the bustling cityscape. Whether you're looking to host a lively outdoor event or simply enjoy a quiet evening under the stars, the backyard provides a versatile and inviting space. Its well-maintained gardens and outdoor seating areas create a relaxing environment where you can unwind and soak in the city's energy.\n\nInside, the villa is adorned with high-end finishes and modern amenities, combining sophistication with practicality. The living areas are spacious and open, designed to accommodate various needs and preferences. From elegant dining rooms to cozy lounges, each space is meticulously crafted to enhance your living experience.\n\nLocated in one of the world's most dynamic cities, this villa offers a unique blend of urban excitement and private comfort. With its luxurious features and prime location, it serves as a perfect base for exploring New York City while providing a high level of tranquility and relaxation."
+,
         "city": "New York",
         "country": "USA",
         "name": "Luxury Living",
         "price": 150,
         "details": {
           "bedroom": 5,
-          "livingRoom": 2,
+          "livingRoom": 1,
           "bathroom": 4,
           "diningRoom": 2,
           "wifi": 50,
@@ -291,13 +392,21 @@
           "refrigerator": 3,
           "television": 4,
           "backyard": 500,
-          "kitchenset": 1
+          "kitchenset": 4
         }
       },
       {
         "id": 15,
-        "imageName": "image-category-10.jpg",
-        "description": "Discover serenity in the heart of Kyoto. This traditional villa offers a spacious backyard and multiple living rooms, providing a peaceful retreat with a touch of Japanese culture.",
+        "image": {
+          "banner": "image-category-10.jpg",
+          "feature": [
+            "image-category-10-feature-1.jpg",
+            "image-category-10-feature-2.jpg",
+            "image-category-10-feature-3.jpg"
+          ]
+        },
+"description": "Discover serenity in the heart of Japan with this traditional villa. Located in a picturesque setting, this villa offers a spacious backyard that perfectly complements its serene environment. The expansive outdoor area is ideal for quiet reflection or casual gatherings, allowing you to fully immerse yourself in the tranquility of your surroundings.\n\nInside, the villa features multiple living rooms that embody classic Japanese aesthetics combined with modern comfort. The spacious interiors are designed to provide a peaceful retreat, with elegant decor and ample natural light enhancing the overall ambiance. Each living area is thoughtfully arranged to offer both comfort and functionality, making it an ideal space for relaxation or entertaining guests.\n\nThe villa's traditional Japanese design elements create a harmonious blend of cultural charm and contemporary convenience. The bedrooms are designed to be restful sanctuaries, with soothing color schemes and comfortable furnishings ensuring a good night’s sleep. The bathrooms are equipped with luxurious fixtures, providing a spa-like experience that complements the villa’s serene atmosphere.\n\nWith its perfect balance of traditional charm and modern amenities, this villa offers a unique opportunity to experience the essence of Japanese culture while enjoying a luxurious and comfortable stay."
+,
         "city": "Kyoto",
         "country": "Japan",
         "name": "Traditional Retreat",
@@ -312,13 +421,20 @@
           "refrigerator": 1,
           "television": 1,
           "backyard": 400,
-          "kitchenset": 1
+          "kitchenset": 3
         }
       },
       {
         "id": 16,
-        "imageName": "image-category-11.jpg",
-        "description": "Experience the charm of Paris in this chic villa. With a stylish backyard and spacious living areas, it offers a luxurious stay in the city of lights.",
+        "image": {
+          "banner": "image-category-11.jpg",
+          "feature": [
+            "image-category-11-feature-1.jpg",
+            "image-category-11-feature-2.jpg",
+            "image-category-11-feature-3.jpg"
+          ]
+        },
+"description": "Experience the charm of Paris in this chic and elegant villa, perfectly situated to offer a taste of the city's renowned sophistication and beauty. The villa features a stylish backyard, meticulously designed to provide an intimate and luxurious outdoor retreat. Whether you're enjoying a quiet morning coffee or hosting a soirée under the stars, the backyard offers a delightful space for relaxation and entertainment.\n\nInside, the villa boasts spacious living areas that are both inviting and refined. The open-plan design seamlessly integrates modern amenities with classic Parisian elegance, creating an atmosphere of comfort and grace. The large living rooms are adorned with high-quality furnishings and tasteful décor, providing ample space for both casual lounging and formal gatherings.\n\nThe villa's bedrooms are havens of tranquility, offering plush bedding and serene views of the surrounding cityscape. Each room is designed to provide a restful escape from the hustle and bustle of Paris, with soft lighting and elegant furnishings enhancing the overall ambiance. The bathrooms feature luxurious fixtures and finishes, ensuring a spa-like experience during your stay.\n\nWith its perfect blend of style, comfort, and location, this villa provides a truly luxurious stay in the heart of Paris. Enjoy the convenience of modern amenities combined with the charm of a classic Parisian home, making it an ideal choice for those seeking both elegance and comfort in the city of lights.",
         "city": "Paris",
         "country": "France",
         "name": "Chic Villa",
@@ -338,8 +454,16 @@
       },
       {
         "id": 17,
-        "imageName": "image-category-12.jpg",
-        "description": "Experience the vibrant culture of Shanghai in this modern villa. featuring a large backyard and multiple living rooms, it provides a perfect blend of comfort and convenience.",
+        "image": {
+          "banner": "image-category-12.jpg",
+          "feature": [
+            "image-category-12-feature-1.jpg",
+            "image-category-12-feature-2.jpg",
+            "image-category-12-feature-3.jpg"
+          ]
+        },
+"description": "Experience the vibrant culture of Shanghai with this modern and stylish villa that epitomizes luxury and comfort. Nestled in a prime location, this villa boasts an expansive and beautifully designed interior with multiple living rooms, making it an ideal choice for both relaxation and social gatherings. The open-plan design creates a seamless flow between spaces, offering a sense of freedom and comfort.\n\nThe villa's large backyard is a highlight, featuring lush greenery, a well-maintained garden, and ample space for outdoor activities. Whether you're hosting a barbecue or simply enjoying a serene moment outdoors, the backyard provides a perfect setting for entertainment and relaxation. The area is thoughtfully landscaped to enhance your outdoor living experience.\n\nInside, the contemporary design seamlessly blends elegance with practicality. High-quality materials and modern furnishings create a sophisticated atmosphere, while the spacious living rooms ensure ample room for family and friends. Each room is designed with comfort in mind, offering cozy spaces to unwind after a day of exploring the city.\n\nWith its combination of stylish interiors and practical amenities, this villa offers an exceptional living experience. Enjoy the convenience of modern amenities and the charm of a thoughtfully curated space that caters to both comfort and functionality. Whether you're hosting gatherings or seeking a tranquil retreat, this villa provides a perfect blend of luxury and comfort in the heart of Shanghai.",
+
         "city": "Shanghai",
         "country": "China",
         "name": "Vibrant Culture",
@@ -354,9 +478,8 @@
           "refrigerator": 2,
           "television": 3,
           "backyard": 350,
-          "kitchenset": 1
+          "kitchenset": 2
         }
       }
-    ]
-  }
-  
+  ]
+}

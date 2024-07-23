@@ -31,7 +31,7 @@ const ReviewBanner = () => {
   ));
 
   return (
-    <div className="flex items-center justify-between p-8 relative ml-12 mr-24">
+    <div className="flex items-center justify-between p-8 relative ml-8 mr-24 mt-4 animate-slide-in-right">
       {/* Review Section */}
       <div className="relative flex-1 flex flex-row-reverse items-center space-x-8 space-x-reverse">
         {/* Image Section */}
@@ -52,25 +52,25 @@ const ReviewBanner = () => {
           <img
             src={imageSrc}
             alt={`Review ${review.placeId}`}
-            className="rounded-custom-rounded mb-4 w-60"
+            className="rounded-custom-rounded mb-4 w-60 transition-transform duration-300 transform hover:scale-110"
           />
         </div>
         
         {/* Review Details Section */}
         <div className="rounded-custom-rounded p-8 bg-white flex-1">
           <p className="text-xl text-pink1 font-bold mb-2 text-justify">
-            {review.familyName}
+            {review.familyName} Family
           </p>
 
-          <div className="flex items-center">
+          <div className="flex items-center mt-4">
             {starIcons}
           </div>
           {/* Additional Information Section */}
-          <h1 className="text-xl font-thin text-pink1">
+          <h1 className="text-xl font-normal text-pink1 mt-2">
             "{review.comment}"
           </h1>
           {place && (
-            <div className="text-sm text-gray-600">
+            <div className="text-sm text-gray-500 mt-2">
               <p>{place.name}, {place.city}, {place.country}</p>
             </div>
           )}

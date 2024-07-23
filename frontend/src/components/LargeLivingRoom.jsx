@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import Database from '../data/database.json';
 
 const LargeLivingRoom = () => {
@@ -25,22 +26,22 @@ const LargeLivingRoom = () => {
   const shuffledPlaces = shuffleArray(sortedPlaces);
 
   return (
-    <div className='ml-20 mr-20 mt-4'>
-      <h1 className="text-xl mb-4 text-pink1">Large living room</h1>
+    <div className='ml-20 mr-20 mt-10 animate-slide-in-right'>
+      <h1 className="text-xl mb-1 text-pink1">Large Living Room</h1>
       <div className="flex space-x-4">
         {shuffledPlaces.map(place => (
-          <div key={place.id} className="flex-1 relative overflow-hidden rounded-xl">
-            <img src={`/images/${place.imageName}`} alt={place.name} className="w-full h-auto object-cover rounded-t-xl" />
+          <Link to={`/detail/${place.id}`} key={place.id} className="flex-1 relative overflow-hidden rounded-xl transition-transform duration-300 transform hover:scale-110">
+            <img src={`/images/${place.image.banner}`} alt={place.name} className="w-full h-auto object-cover rounded-t-xl" />
             {place === mostSpacious && (
               <div className="absolute top-0 right-0 bg-blue1 text-white py-1 px-6 rounded-bl-xl">
-                <span className="text-sm font-thin">Most Spacious</span>
+                <span className="text-sm font-light">Most Spacious</span>
               </div>
             )}
             <div className="relative p-2 bg-white rounded-b-xl">
-              <h3 className="text-sm font-thin text-pink1">{place.name}</h3>
-              <p className="text-xs font-thin text-gray1">{`${place.city}, ${place.country}`}</p>
+              <h3 className="text-sm font-normal text-pink1">{place.name}</h3>
+              <p className="text-xs font-normal text-gray-500">{`${place.city}, ${place.country}`}</p>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

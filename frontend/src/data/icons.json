@@ -1,4 +1,15 @@
 {
-    "starIcon": "iconStar.png"
+    "starIcon": "iconStar.png",
+    "ic_ac": "ic_ac.png",
+    "ic_bedroom": "ic_bedroom.png",
+    "ic_bathroom": "ic_bathroom.png",
+    "ic_diningroom": "ic_diningroom.png",
+    "ic_kulkas": "ic_kulkas.png",
+    "ic_livingroom": "ic_livingroom.png",
+    "ic_tv": "ic_tv.png",
+    "ic_wifi": "ic_wifi.png",
+    "ic_klender": "ic_klender.png",
+    "ic_kitchenset": "ic_kitchenset.png",
+    "ic_backyard": "ic_backyard.png"
   }
   
