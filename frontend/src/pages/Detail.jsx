@@ -161,6 +161,7 @@ const Detail = () => {
             handleBooking={handleBooking}
             totalPrice={totalPrice}
             formattedNights={formattedNights}
+            bannerImage={place.image.banner}
           />
         </div>
       </div>

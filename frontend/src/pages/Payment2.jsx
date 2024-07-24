@@ -1,13 +1,15 @@
-import React, { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import React, { useState, useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { BookingContext } from '../context/BookingContext'; // Path ke BookingContext
 import LogoBCA from '../../public/icons/logo_bank.png';
 import LogoMandiri from '../../public/icons/logo_bank-1.png';
 import IconUpload from '../../public/icons/ic_upload.png';
 
 const Payment2 = () => {
-  const navigate = useNavigate();
-  const location = useLocation();
-  const { totalPrice } = location.state || { totalPrice: 0 }; // Default to 0 if state is undefined
+  const { bookingDetails } = useContext(BookingContext); // Ambil data dari context
+
+  // Data dari context
+  const { totalPrice } = bookingDetails;
 
   // Ensure that totalPrice is a number
   const subTotal = Number(totalPrice);
@@ -28,14 +30,6 @@ const Payment2 = () => {
   const [fileName, setFileName] = useState('');
   const [isFileSelected, setIsFileSelected] = useState(false);
 
-  const handleCompleteReservation = () => {
-    if (formValues.sendersName && formValues.originBank && isFileSelected) {
-      navigate('/payment3', {
-        state: { totalPrice: roundedGrandTotal }
-      });
-    }
-  };
-
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormValues({
@@ -53,6 +47,13 @@ const Payment2 = () => {
       setFileName('');
       setIsFileSelected(false); // No file selected
     }
+  };
+
+  // Handle form submission
+  const handleCompleteReservation = () => {
+    // Implement logic to navigate or update context/state
+    // For example, set context state or trigger a function here
+    console.log("Reservation completed with total price:", roundedGrandTotal);
   };
 
   // Disable button if any field is empty or file is not selected
@@ -181,7 +182,7 @@ const Payment2 = () => {
             Complete Your Payment
           </button>
           <button
-            onClick={() => navigate('/')}
+            onClick={() => window.history.back()}
             className="text-sm bg-gray3 text-gray-500 px-4 py-2 rounded-md w-[320px] h-10"
           >
             Cancel

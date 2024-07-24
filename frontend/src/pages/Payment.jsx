@@ -1,22 +1,13 @@
 import React, { useState } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useBooking } from '../context/BookingContext'; // Path ke BookingContext
 
 const Payment = () => {
-  const { search } = useLocation();
   const navigate = useNavigate();
-  const query = new URLSearchParams(search);
+  const { bookingDetails } = useBooking(); // Ambil data dari context
 
-  // Mengambil data dari query parameter
-  const placeId = query.get('id');
-  const totalPrice = query.get('totalPrice');
-  const formattedNights = query.get('formattedNights');
-  const bannerImage = query.get('bannerImage');
-  const placeName = query.get('name');
-  const city = query.get('city');
-  const country = query.get('country');
-
-  // Menggabungkan city dan country menjadi satu string
-  const placeLocation = `${city}, ${country}`;
+  // Data dari context
+  const { place, nights, startDate, endDate, totalPrice, formattedNights, bannerImage } = bookingDetails;
 
   // State untuk form input
   const [formData, setFormData] = useState({
@@ -87,10 +78,10 @@ const Payment = () => {
                 <img src={`/images/${bannerImage}`} alt="Booking" className="w-full h-auto object-cover mb-4 mt-4 rounded" />
                 <div className="flex justify-between">
                   <div>
-                    <p className="text-sm font-semibold">{placeName}</p>
-                    <p className="text-gray-500">{placeLocation}</p>
+                    <p className="text-sm font-semibold">{place.name}</p>
+                    <p className="text-sm text-gray-500">{place.city}</p>
                   </div>
-                  <p className="text-sm font-semibold text-right mt-4">
+                  <p className="text-sm font-semibold text-right mt-2">
                     <span className="text-pink1 font-semibold">${totalPrice} USD</span> <span className="text-gray-500 font-normal">per</span> <span className="text-pink1 font-semibold">{formattedNights}</span>
                   </p>
                 </div>

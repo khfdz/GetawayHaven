@@ -1,6 +1,8 @@
 import React from 'react';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
+import { useBooking } from '../context/BookingContext'; // Path ke BookingContext
+import { useNavigate } from 'react-router-dom'; // Impor useNavigate
 
 const DetailBooking = ({
   place,
@@ -14,11 +16,28 @@ const DetailBooking = ({
   handleDecreaseNights,
   handleDatePick,
   handleDateRangeChange,
-  handleBooking,
   totalPrice,
   formattedNights
 }) => {
-  
+  const { updateBookingDetails } = useBooking();
+  const navigate = useNavigate(); // Inisialisasi useNavigate
+
+  const handleBooking = () => {
+    // Memperbarui detail pemesanan melalui context
+    updateBookingDetails({
+      place,
+      nights,
+      startDate,
+      endDate,
+      totalPrice,
+      formattedNights,
+      bannerImage: place.image.banner // Menambahkan bannerImage
+    });
+
+    // Navigasi ke halaman Payment setelah update
+    navigate('/payment');
+  };
+
   return (
     <div className="w-[360px] h-full bg-white p-8 rounded-lg border mt-2 mb-12">
       <h2 className="text-xl font-bold text-pink1 mb-4">Start Booking</h2>
@@ -51,6 +70,7 @@ const DetailBooking = ({
         >
           <img src={icons.klender} alt="Calendar" className="w-6 h-6" />
         </button>
+
         <span className="flex-1 text-gray-700 text-sm text-center flex items-center justify-center">
           {dateRangeLabel}
         </span>
@@ -77,7 +97,7 @@ const DetailBooking = ({
 
       {/* Button */}
       <button
-        className="w-full p-2 bg-pink1 text-white rounded-lg shadow-lg shadow-pink1"
+        className="w-full p-2 bg-pink1 text-white rounded-lg shadow-lg"
         onClick={handleBooking}
       >
         Continue to Book
