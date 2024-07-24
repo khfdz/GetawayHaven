@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-8 text-center text-xs ">
-                    <p className="text-xs hover:text-pink1">
+                    <p className="text-xs text-gray-700 hover:text-pink1">
                         Copyright 2024 • All rights reserved
                     </p>
                     <a href="https://instagram.com/khfdz" className="text-pink1 hover:underline">@khfdz</a>
