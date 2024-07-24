@@ -42,13 +42,13 @@ const Footer = () => {
                         <ul className=" text-gray-700">
                             <li><a href="/" className="text-xs hover:text-pink1">Privacy Policy</a></li>
                             <li><a href="/" className="text-xs hover:text-pink1">Terms & Conditions</a></li>
-                            <li><a href="mailto:support@getawayhaven.id" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">support@getawayhaven.id</a></li>
+                            <li><a href="mailto:support@getawayhaven.id" className="text-xs hover:text-pink1">support@getawayhaven.id</a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div className="mt-8 text-center text-xs ">
-                    <p className="text-gray-700 dark:text-gray-300">
+                    <p className="text-xs hover:text-pink1">
                         Copyright 2024 • All rights reserved
                     </p>
                     <a href="https://instagram.com/khfdz" className="text-pink1 hover:underline">@khfdz</a>
