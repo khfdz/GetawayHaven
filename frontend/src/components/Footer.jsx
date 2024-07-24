@@ -18,7 +18,7 @@ const Footer = () => {
 
                     {/* Staycation Section */}
                     <div className="w-full lg:w-1/4">
-                        <h5 className="text-sm font-semibold text-gray-800 dark:text-white text-pink1">Staycation</h5>
+                        <h5 className="text-sm font-semibold text-gray-800 dark:text-white text-pink1">Go Ahead</h5>
                         <ul className="text-gray-500">
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">New Account</a></li>
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">For Beginners</a></li>

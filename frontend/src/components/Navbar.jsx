@@ -18,12 +18,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/stories" className="text-pink2 hover:text-pink1 px-3 py-2 rounded-md text-sm font-medium">
+                <Link to="/" className="text-pink2 hover:text-pink1 px-3 py-2 rounded-md text-sm font-medium">
                   Stories
                 </Link>
               </li>
               <li>
-                <Link to="/agents" className="text-pink2 hover:text-pink1 px-3 py-2 rounded-md text-sm font-medium">
+                <Link to="/" className="text-pink2 hover:text-pink1 px-3 py-2 rounded-md text-sm font-medium">
                   Agents
                 </Link>
               </li>

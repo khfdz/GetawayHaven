@@ -3,16 +3,18 @@ import Database from '../data/database.json';
 import { Link } from 'react-router-dom';
 
 const MostPicked = () => {
-  const firstImage = Database.place[0];
-  const secondImages = Database.place.slice(1, 3);
-  const thirdImages = Database.place.slice(3, 5);
+  // Sort by ID to ensure consistent ordering
+  const sortedPlaces = Database.place.sort((a, b) => a.id - b.id);
+  const firstImage = sortedPlaces[0];
+  const secondImages = sortedPlaces.slice(1, 3);
+  const thirdImages = sortedPlaces.slice(3, 5);
 
   return (
     <div className='ml-20 mr-20 mt-10 animate-slide-in-right'>
       <h1 className="text-xl mb-1 text-pink1">Most Picked</h1>
       <div className="flex space-x-4">
         {/* First Image */}
-        <div className="flex-1 relative overflow-hidden rounded-xl transition-transform duration-300 transform hover:scale-110 ">
+        <div className="flex-1 relative overflow-hidden rounded-xl transition-transform duration-300 transform hover:scale-110 -mt-1">
           <Link to={`/detail/${firstImage.id}`}>
             <img src={`/images/${firstImage.image.banner}`} alt={firstImage.name} className="w-full h-auto object-cover" />
             <div className="absolute top-0 right-0 bg-blue1 text-white py-1 px-6 rounded-bl-xl">
