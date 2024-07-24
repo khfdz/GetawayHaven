@@ -1,14 +1,18 @@
-import React, { useState, useContext } from 'react';
-import { Link } from 'react-router-dom';
-import { BookingContext } from '../context/BookingContext'; // Path ke BookingContext
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import LogoBCA from '../../public/icons/logo_bank.png';
 import LogoMandiri from '../../public/icons/logo_bank-1.png';
 import IconUpload from '../../public/icons/ic_upload.png';
+import { useBooking } from '../context/BookingContext';
 
 const Payment2 = () => {
-  const { bookingDetails } = useContext(BookingContext); // Ambil data dari context
+  const navigate = useNavigate();
+  const { bookingDetails } = useBooking(); // Pastikan bookingDetails ada dan diambil dari context
 
-  // Data dari context
+  if (!bookingDetails) {
+    return <p>Loading...</p>; // Handle loading state if needed
+  }
+
   const { totalPrice } = bookingDetails;
 
   // Ensure that totalPrice is a number
@@ -30,6 +34,14 @@ const Payment2 = () => {
   const [fileName, setFileName] = useState('');
   const [isFileSelected, setIsFileSelected] = useState(false);
 
+  const handleCompleteReservation = () => {
+    if (formValues.sendersName && formValues.originBank && isFileSelected) {
+      navigate('/payment3', {
+        state: { totalPrice: roundedGrandTotal }
+      });
+    }
+  };
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormValues({
@@ -42,18 +54,11 @@ const Payment2 = () => {
     const file = e.target.files[0];
     if (file) {
       setFileName(file.name);
-      setIsFileSelected(true); // Mark file as selected
+      setIsFileSelected(true);
     } else {
       setFileName('');
-      setIsFileSelected(false); // No file selected
+      setIsFileSelected(false);
     }
-  };
-
-  // Handle form submission
-  const handleCompleteReservation = () => {
-    // Implement logic to navigate or update context/state
-    // For example, set context state or trigger a function here
-    console.log("Reservation completed with total price:", roundedGrandTotal);
   };
 
   // Disable button if any field is empty or file is not selected
@@ -100,8 +105,8 @@ const Payment2 = () => {
             <div className="pb-6 mb-6 mr-12">
               <p className="text-sm font-semibold mb-2">Transfer Information :</p>
               <p className="text-sm">Tax: 10%</p>
-              <p className="text-sm">Sub total: ${roundedSubTotal} USD</p> {/* Format to integer */}
-              <p className="text-sm">Total: ${roundedGrandTotal} USD</p> {/* Format to integer */}
+              <p className="text-sm">Sub total: ${roundedSubTotal} USD</p>
+              <p className="text-sm">Total: ${roundedGrandTotal} USD</p>
 
               <div className='flex items-center mb-4'>
                 <img src={LogoBCA} alt="BCA Logo" className="w-[100px] h-auto object-cover rounded mr-12" />
@@ -182,7 +187,7 @@ const Payment2 = () => {
             Complete Your Payment
           </button>
           <button
-            onClick={() => window.history.back()}
+            onClick={() => navigate('/')}
             className="text-sm bg-gray3 text-gray-500 px-4 py-2 rounded-md w-[320px] h-10"
           >
             Cancel
