@@ -11,7 +11,7 @@ const Footer = () => {
                             <span className="text-pink1 text-lg font-normal">Getaway</span>
                             <span className="text-red-800 text-lg font-normal">haven.</span>
                         </div>
-                        <p className="text-xs hover:text-pink1 text-justify">
+                        <p className="text-gray-700 text-xs hover:text-pink1 text-justify">
                            We make your dream holiday instantly unforgettable and full of moments with your family.
                         </p>
                     </div>
