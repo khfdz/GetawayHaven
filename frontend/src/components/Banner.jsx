@@ -33,7 +33,7 @@ const Banner = () => {
         <h1 className="text-xl font-bold text-pink1 mb-4">
           Escape the Ordinary,<br /> Embrace Your Adventure
         </h1>
-        <p className="text-sm text-gray1 mb-6 text-justify">
+        <p className="text-sm text-gray-600 mb-6 text-justify">
           Discover stunning destinations and unique experiences with GetawayHaven. From sun-soaked beaches to serene retreats, we provide everything for your perfect getaway and unforgettable memories.
         </p>
 

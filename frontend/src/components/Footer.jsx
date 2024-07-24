@@ -11,25 +11,25 @@ const Footer = () => {
                             <span className="text-pink1 text-lg font-normal">Getaway</span>
                             <span className="text-red-800 text-lg font-normal">haven.</span>
                         </div>
-                        <p className="text-gray-500 dark:text-gray-300 text-xs">
-                           We make your dream holiday instantly unforgettable and full of beautiful moments.
+                        <p className="text-gray-700 dark:text-gray-300 text-xs text-justify">
+                           We make your dream holiday instantly unforgettable and full of moments with your family.
                         </p>
                     </div>
 
                     {/* Staycation Section */}
                     <div className="w-full lg:w-1/4">
                         <h5 className="text-sm font-semibold text-gray-800 dark:text-white text-pink1">Go Ahead</h5>
-                        <ul className="text-gray-500">
+                        <ul className="text-gray-700">
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">New Account</a></li>
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">For Beginners</a></li>
-                            <li><a href="/" className="text-xs  dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Explore Us</a></li>
+                            <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Explore Us</a></li>
                         </ul>
                     </div>
 
                     {/* About Us Section */}
                     <div className="w-full lg:w-1/4">
                         <h5 className="text-sm font-semibold text-gray-800 dark:text-white text-pink1">About Us</h5>
-                        <ul className=" text-gray-500">
+                        <ul className=" text-gray-700">
                             <li><a href="/" className="text-xs textdark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Our Story</a></li>
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Our Team</a></li>
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Careers</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
                     {/* Contact & More Section */}
                     <div className="w-full lg:w-1/4">
                         <h5 className="text-sm font-semibold dark:text-white text-pink1">Contact & More</h5>
-                        <ul className=" text-gray-500">
+                        <ul className=" text-gray-700">
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Privacy Policy</a></li>
                             <li><a href="/" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">Terms & Conditions</a></li>
                             <li><a href="mailto:support@getawayhaven.id" className="text-xs dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100">support@getawayhaven.id</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-8 text-center text-xs ">
-                    <p className="text-gray-500 dark:text-gray-300">
+                    <p className="text-gray-700 dark:text-gray-300">
                         Copyright 2024 • All rights reserved
                     </p>
                     <a href="https://instagram.com/khfdz" className="text-pink1 hover:underline">@khfdz</a>
